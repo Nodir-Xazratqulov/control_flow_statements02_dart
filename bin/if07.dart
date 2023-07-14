@@ -15,5 +15,25 @@ Returns:
     str: return answer. 
 */
 
+String func(int week){
+  if(week==1){
+    return "Monday";
+  } else if(week==2){
+    return "Tuesday";
+  }else if(week==3){
+    return "Wednesday";
+  }else if(week==4){
+    return "Thursday";
+  }else if(week==5){
+    return "Friday";
+  }else if(week==6){
+    return "Saturday";
+  }else if(week==7){
+    return "Sunday";
+  } else{
+    return 'Invalid number';
+  }
+}
 void main() {
+  print(func(-3));
 }
